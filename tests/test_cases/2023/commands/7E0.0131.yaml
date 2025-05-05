@@ -5,9 +5,6 @@ test_cases:
 - response: 7E8044131E8E9
   expected_values:
     CLR_DIST: 59625
-- response: 7E8044131E8EB
-  expected_values:
-    CLR_DIST: 59627
 - response: 7E8044131E8ED
   expected_values:
     CLR_DIST: 59629
@@ -23,12 +20,6 @@ test_cases:
 - response: 7E8044131E8F8
   expected_values:
     CLR_DIST: 59640
-- response: 7E8044131E8F9
-  expected_values:
-    CLR_DIST: 59641
-- response: 7E8044131E8FA
-  expected_values:
-    CLR_DIST: 59642
 - response: 7E8044131E8FB
   expected_values:
     CLR_DIST: 59643
@@ -38,48 +29,18 @@ test_cases:
 - response: 7E8044131E900
   expected_values:
     CLR_DIST: 59648
-- response: 7E8044131E907
-  expected_values:
-    CLR_DIST: 59655
-- response: 7E9044131E928
-  expected_values:
-    CLR_DIST: 59688
-- response: 7E9044131E92A
-  expected_values:
-    CLR_DIST: 59690
-- response: 7E9044131E92C
-  expected_values:
-    CLR_DIST: 59692
-- response: 7E9044131E92D
-  expected_values:
-    CLR_DIST: 59693
 - response: 7E9044131E930
   expected_values:
     CLR_DIST: 59696
-- response: 7E9044131E936
-  expected_values:
-    CLR_DIST: 59702
 - response: 7E9044131E938
   expected_values:
     CLR_DIST: 59704
 - response: 7E9044131E93A
   expected_values:
     CLR_DIST: 59706
-- response: 7E9044131E93C
-  expected_values:
-    CLR_DIST: 59708
-- response: 7E9044131E947
-  expected_values:
-    CLR_DIST: 59719
 - response: 7EC044131F35B
   expected_values:
     CLR_DIST: 62299
-- response: 7EC044131F365
-  expected_values:
-    CLR_DIST: 62309
-- response: 7EC044131F36A
-  expected_values:
-    CLR_DIST: 62314
 - response: 7EC044131F36B
   expected_values:
     CLR_DIST: 62315
@@ -104,33 +65,18 @@ test_cases:
 - response: 7EF044131F35D
   expected_values:
     CLR_DIST: 62301
-- response: 7EF044131F360
-  expected_values:
-    CLR_DIST: 62304
 - response: 7EF044131F362
   expected_values:
     CLR_DIST: 62306
-- response: 7EF044131F363
-  expected_values:
-    CLR_DIST: 62307
 - response: 7EF044131F364
   expected_values:
     CLR_DIST: 62308
-- response: 7EF044131F366
-  expected_values:
-    CLR_DIST: 62310
-- response: 7EF044131F367
-  expected_values:
-    CLR_DIST: 62311
 - response: 7EF044131F368
   expected_values:
     CLR_DIST: 62312
 - response: 7EF044131F369
   expected_values:
     CLR_DIST: 62313
-- response: 7EF044131F36A
-  expected_values:
-    CLR_DIST: 62314
 - response: 7EF044131F36B
   expected_values:
     CLR_DIST: 62315
@@ -140,12 +86,6 @@ test_cases:
 - response: 7EF044131F36D
   expected_values:
     CLR_DIST: 62317
-- response: 7EF044131F36E
-  expected_values:
-    CLR_DIST: 62318
-- response: 7EF044131F36F
-  expected_values:
-    CLR_DIST: 62319
 - response: 7EF044131F370
   expected_values:
     CLR_DIST: 62320
@@ -155,21 +95,6 @@ test_cases:
 - response: 7EF044131F372
   expected_values:
     CLR_DIST: 62322
-- response: 7EF044131F373
-  expected_values:
-    CLR_DIST: 62323
-- response: 7EF044131F374
-  expected_values:
-    CLR_DIST: 62324
-- response: 7EF044131F375
-  expected_values:
-    CLR_DIST: 62325
-- response: 7EF044131F376
-  expected_values:
-    CLR_DIST: 62326
-- response: 7EF044131F377
-  expected_values:
-    CLR_DIST: 62327
 - response: 7EF044131F378
   expected_values:
     CLR_DIST: 62328

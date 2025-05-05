@@ -1,0 +1,100 @@
+command_id: 7E0.0131
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8044131E8E9
+  expected_values:
+    CLR_DIST: 59625
+- response: 7E8044131E8ED
+  expected_values:
+    CLR_DIST: 59629
+- response: 7E8044131E8EF
+  expected_values:
+    CLR_DIST: 59631
+- response: 7E8044131E8F0
+  expected_values:
+    CLR_DIST: 59632
+- response: 7E8044131E8F3
+  expected_values:
+    CLR_DIST: 59635
+- response: 7E8044131E8F8
+  expected_values:
+    CLR_DIST: 59640
+- response: 7E8044131E8FB
+  expected_values:
+    CLR_DIST: 59643
+- response: 7E8044131E8FC
+  expected_values:
+    CLR_DIST: 59644
+- response: 7E8044131E900
+  expected_values:
+    CLR_DIST: 59648
+- response: 7E9044131E930
+  expected_values:
+    CLR_DIST: 59696
+- response: 7E9044131E938
+  expected_values:
+    CLR_DIST: 59704
+- response: 7E9044131E93A
+  expected_values:
+    CLR_DIST: 59706
+- response: 7EC044131F35B
+  expected_values:
+    CLR_DIST: 62299
+- response: 7EC044131F36B
+  expected_values:
+    CLR_DIST: 62315
+- response: 7EC044131F36C
+  expected_values:
+    CLR_DIST: 62316
+- response: 7EC044131F378
+  expected_values:
+    CLR_DIST: 62328
+- response: 7EF044131F358
+  expected_values:
+    CLR_DIST: 62296
+- response: 7EF044131F359
+  expected_values:
+    CLR_DIST: 62297
+- response: 7EF044131F35A
+  expected_values:
+    CLR_DIST: 62298
+- response: 7EF044131F35C
+  expected_values:
+    CLR_DIST: 62300
+- response: 7EF044131F35D
+  expected_values:
+    CLR_DIST: 62301
+- response: 7EF044131F362
+  expected_values:
+    CLR_DIST: 62306
+- response: 7EF044131F364
+  expected_values:
+    CLR_DIST: 62308
+- response: 7EF044131F368
+  expected_values:
+    CLR_DIST: 62312
+- response: 7EF044131F369
+  expected_values:
+    CLR_DIST: 62313
+- response: 7EF044131F36B
+  expected_values:
+    CLR_DIST: 62315
+- response: 7EF044131F36C
+  expected_values:
+    CLR_DIST: 62316
+- response: 7EF044131F36D
+  expected_values:
+    CLR_DIST: 62317
+- response: 7EF044131F370
+  expected_values:
+    CLR_DIST: 62320
+- response: 7EF044131F371
+  expected_values:
+    CLR_DIST: 62321
+- response: 7EF044131F372
+  expected_values:
+    CLR_DIST: 62322
+- response: 7EF044131F378
+  expected_values:
+    CLR_DIST: 62328

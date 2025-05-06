@@ -4,6 +4,27 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     7CE100A62B002C00000
+    7CE2100229600000000
+  expected_values:
+    KIA_CLUSTER_VOLTAGE: 11.71875
+    KIA_FLI_VOL: 34
+    KIA_VPWR: 11.71875
+- response: |-
+    7CE100A62B002C00000
+    7CE210022AF00000000
+  expected_values:
+    KIA_CLUSTER_VOLTAGE: 13.67188
+    KIA_FLI_VOL: 34
+    KIA_VPWR: 13.67188
+- response: |-
+    7CE100A62B002C00000
+    7CE210024AF00000000
+  expected_values:
+    KIA_CLUSTER_VOLTAGE: 13.67188
+    KIA_FLI_VOL: 36
+    KIA_VPWR: 13.67188
+- response: |-
+    7CE100A62B002C00000
     7CE21002A9600000000
   expected_values:
     KIA_CLUSTER_VOLTAGE: 11.71875

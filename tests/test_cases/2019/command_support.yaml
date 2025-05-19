@@ -97,6 +97,7 @@ unsupported_commands_by_ecu:
   7E0:
   - 7E0.7D8.2101:KIA_MIS_1,KIA_MIS_2,KIA_MIS_3,KIA_MIS_4
   - 7E0.7D8.2118:KIA_CVVT_T
+  - 7E0.7E8.2221A0
   - 7E0.7E8.22ED02
   7E1:
   - 7E1.7E9.21A0

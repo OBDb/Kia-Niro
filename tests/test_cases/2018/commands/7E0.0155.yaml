@@ -5,3 +5,6 @@ test_cases:
 - response: 7E80341556E
   expected_values:
     STSO2FT1: -14.0625
+- response: 7E80341557D
+  expected_values:
+    STSO2FT1: -2.34375

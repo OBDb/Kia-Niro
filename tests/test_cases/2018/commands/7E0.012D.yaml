@@ -5,3 +5,6 @@ test_cases:
 - response: 7E803412D84
   expected_values:
     EGR_ERR: 3.125
+- response: 7E803412DFF
+  expected_values:
+    EGR_ERR: 99.21875

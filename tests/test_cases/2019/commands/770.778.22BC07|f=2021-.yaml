@@ -1,0 +1,12 @@
+command_id: 770.778.22BC07|f=2021-
+test_cases:
+- response: |-
+    778100B62BC0708680B
+    77821C000140000AAAA
+  expected_values:
+    KIA_DEFOG_LIGHT_V2: 1
+- response: |-
+    778100B62BC0708680B
+    77821C010140000AAAA
+  expected_values:
+    KIA_DEFOG_LIGHT_V2: 1

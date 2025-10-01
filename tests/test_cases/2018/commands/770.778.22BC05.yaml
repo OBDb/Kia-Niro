@@ -1,0 +1,47 @@
+command_id: 770.778.22BC05
+test_cases:
+- expected_values:
+    KIA_HAZARD_SW: 0
+  response: |-
+    778100B62BC05BF1300
+    778210000000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 1
+  response: |-
+    778100B62BC05BF1300
+    778210001000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 1
+  response: |-
+    778100B62BC05BF1300
+    778210001080000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 80
+  response: |-
+    778100B62BC05BF1300
+    778210050000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 81
+  response: |-
+    778100B62BC05BF1300
+    778210051000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 160
+  response: |-
+    778100B62BC05BF1300
+    7782100A0000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 161
+  response: |-
+    778100B62BC05BF1300
+    7782100A1000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 241
+  response: |-
+    778100B62BC05BF1300
+    7782100F1000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 241
+  response: |-
+    778100B62BC05BF1300
+    7782100F1400000AAAA

@@ -1,0 +1,12 @@
+command_id: 770.778.22BC05
+test_cases:
+- expected_values:
+    KIA_HAZARD_SW: 1
+  response: |-
+    778100B62BC05BF1320
+    778210001000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 9
+  response: |-
+    778100B62BC05BF1320
+    778210009000000AAAA

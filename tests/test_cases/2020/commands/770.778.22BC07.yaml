@@ -2,6 +2,9 @@ command_id: 770.778.22BC07
 test_cases:
 - expected_values:
     KIA_DEFOG_LIGHT: 1
+  response: "22BC07\n778 10 0B 62 BC 07 08 49 DB \n778 21 C0 00 10 19 00 AA AA "
+- expected_values:
+    KIA_DEFOG_LIGHT: 1
   response: |-
     778100B62BC070849DB
     77821C000101900AAAA

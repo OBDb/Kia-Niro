@@ -13,6 +13,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 30.8
+    KIA_TP_FL_PRE21: 30.8
     KIA_TP_FR: 14.2
     KIA_TP_FR_PRE21: 31
     KIA_TP_RL: 0.2
@@ -20,6 +21,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 31.2
     KIA_TT_FL: 20
+    KIA_TT_FL_PRE21: 20
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 21
     KIA_TT_RL: -50
@@ -46,6 +48,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 32
+    KIA_TP_FL_PRE21: 32
     KIA_TP_FR: 15.2
     KIA_TP_FR_PRE21: 32.2
     KIA_TP_RL: 0.2
@@ -53,6 +56,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 32.2
     KIA_TT_FL: 26
+    KIA_TT_FL_PRE21: 26
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 26
     KIA_TT_RL: -50
@@ -79,6 +83,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 32.4
+    KIA_TP_FL_PRE21: 32.4
     KIA_TP_FR: 15.4
     KIA_TP_FR_PRE21: 32.4
     KIA_TP_RL: 0.2
@@ -86,6 +91,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 32.6
     KIA_TT_FL: 29
+    KIA_TT_FL_PRE21: 29
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 27
     KIA_TT_RL: -50
@@ -112,6 +118,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 32.4
+    KIA_TP_FL_PRE21: 32.4
     KIA_TP_FR: 15.8
     KIA_TP_FR_PRE21: 32.4
     KIA_TP_RL: 0.2
@@ -119,6 +126,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 32.8
     KIA_TT_FL: 29
+    KIA_TT_FL_PRE21: 29
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 29
     KIA_TT_RL: -50
@@ -145,6 +153,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 32.4
+    KIA_TP_FL_PRE21: 32.4
     KIA_TP_FR: 15.8
     KIA_TP_FR_PRE21: 32.4
     KIA_TP_RL: 0.2
@@ -152,6 +161,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 32.8
     KIA_TT_FL: 30
+    KIA_TT_FL_PRE21: 30
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 29
     KIA_TT_RL: -50
@@ -178,6 +188,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 32.4
+    KIA_TP_FL_PRE21: 32.4
     KIA_TP_FR: 16
     KIA_TP_FR_PRE21: 32.8
     KIA_TP_RL: 0.2
@@ -185,6 +196,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 32.8
     KIA_TT_FL: 30
+    KIA_TT_FL_PRE21: 30
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 30
     KIA_TT_RL: -50
@@ -211,6 +223,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 32.8
+    KIA_TP_FL_PRE21: 32.8
     KIA_TP_FR: 16.8
     KIA_TP_FR_PRE21: 33.2
     KIA_TP_RL: 0.2
@@ -218,6 +231,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 33
     KIA_TT_FL: 34
+    KIA_TT_FL_PRE21: 34
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 34
     KIA_TT_RL: -50
@@ -244,6 +258,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 33
+    KIA_TP_FL_PRE21: 33
     KIA_TP_FR: 12.2
     KIA_TP_FR_PRE21: 33
     KIA_TP_RL: 0.2
@@ -251,6 +266,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 31.4
     KIA_TT_FL: 11
+    KIA_TT_FL_PRE21: 11
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 11
     KIA_TT_RL: -50
@@ -277,6 +293,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 33.4
+    KIA_TP_FL_PRE21: 33.4
     KIA_TP_FR: 16
     KIA_TP_FR_PRE21: 33.2
     KIA_TP_RL: 0.4
@@ -284,6 +301,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 33
     KIA_TT_FL: 35
+    KIA_TT_FL_PRE21: 35
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 30
     KIA_TT_RL: -50
@@ -310,6 +328,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 2
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 33.4
+    KIA_TP_FL_PRE21: 33.4
     KIA_TP_FR: 16.8
     KIA_TP_FR_PRE21: 33.2
     KIA_TP_RL: 0.4
@@ -317,6 +336,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 33
     KIA_TT_FL: 35
+    KIA_TT_FL_PRE21: 35
     KIA_TT_FR: -48
     KIA_TT_FR_PRE21: 34
     KIA_TT_RL: -50
@@ -343,6 +363,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 33.6
+    KIA_TP_FL_PRE21: 33.6
     KIA_TP_FR: 13
     KIA_TP_FR_PRE21: 33.6
     KIA_TP_RL: 0.2
@@ -350,6 +371,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 32.2
     KIA_TT_FL: 16
+    KIA_TT_FL_PRE21: 16
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 15
     KIA_TT_RL: -50
@@ -376,6 +398,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 35.4
+    KIA_TP_FL_PRE21: 35.4
     KIA_TP_FR: 12.4
     KIA_TP_FR_PRE21: 35.2
     KIA_TP_RL: 0.2
@@ -383,6 +406,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 33.4
     KIA_TT_FL: 14
+    KIA_TT_FL_PRE21: 14
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 12
     KIA_TT_RL: -50
@@ -409,6 +433,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 35.4
+    KIA_TP_FL_PRE21: 35.4
     KIA_TP_FR: 13
     KIA_TP_FR_PRE21: 35.4
     KIA_TP_RL: 0.2
@@ -416,6 +441,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 33.6
     KIA_TT_FL: 16
+    KIA_TT_FL_PRE21: 16
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 15
     KIA_TT_RL: -50
@@ -442,6 +468,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 38.2
+    KIA_TP_FL_PRE21: 38.2
     KIA_TP_FR: 15
     KIA_TP_FR_PRE21: 37.6
     KIA_TP_RL: 0.2
@@ -449,6 +476,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 35.4
     KIA_TT_FL: 30
+    KIA_TT_FL_PRE21: 30
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 25
     KIA_TT_RL: -50
@@ -475,6 +503,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 38.4
+    KIA_TP_FL_PRE21: 38.4
     KIA_TP_FR: 14.8
     KIA_TP_FR_PRE21: 38
     KIA_TP_RL: 0.2
@@ -482,6 +511,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 37
     KIA_TT_FL: 24
+    KIA_TT_FL_PRE21: 24
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 24
     KIA_TT_RL: -50
@@ -508,6 +538,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 40.8
+    KIA_TP_FL_PRE21: 40.8
     KIA_TP_FR: 17
     KIA_TP_FR_PRE21: 40.8
     KIA_TP_RL: 0.2
@@ -515,6 +546,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 35
+    KIA_TT_FL_PRE21: 35
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 35
     KIA_TT_RL: -50
@@ -541,6 +573,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 40.8
+    KIA_TP_FL_PRE21: 40.8
     KIA_TP_FR: 17.2
     KIA_TP_FR_PRE21: 40.8
     KIA_TP_RL: 0.2
@@ -548,6 +581,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 35
+    KIA_TT_FL_PRE21: 35
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 36
     KIA_TT_RL: -50
@@ -574,6 +608,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 40.8
+    KIA_TP_FL_PRE21: 40.8
     KIA_TP_FR: 19.4
     KIA_TP_FR_PRE21: 41.4
     KIA_TP_RL: 0.2
@@ -581,6 +616,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 46
+    KIA_TT_FL_PRE21: 46
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 47
     KIA_TT_RL: -50
@@ -607,6 +643,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 41
+    KIA_TP_FL_PRE21: 41
     KIA_TP_FR: 19.4
     KIA_TP_FR_PRE21: 41.4
     KIA_TP_RL: 0.2
@@ -614,6 +651,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 45
+    KIA_TT_FL_PRE21: 45
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 47
     KIA_TT_RL: -50
@@ -640,6 +678,7 @@ test_cases:
     KIA_TPMS_TEMP_FR: 1
     KIA_TPMS_TEMP_RR: 0
     KIA_TP_FL: 41
+    KIA_TP_FL_PRE21: 41
     KIA_TP_FR: 19.4
     KIA_TP_FR_PRE21: 41.6
     KIA_TP_RL: 0.2
@@ -647,6 +686,7 @@ test_cases:
     KIA_TP_RR: 0
     KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 46
+    KIA_TT_FL_PRE21: 46
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 47
     KIA_TT_RL: -50

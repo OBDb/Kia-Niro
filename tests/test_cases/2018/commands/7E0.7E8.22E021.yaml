@@ -1,10 +1,14 @@
 command_id: 7E0.7E8.22E021
 test_cases:
 - expected_values:
+    KIA_TB_PRES: 0
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -18,10 +22,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -35,10 +43,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0.01658
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -52,10 +64,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0.01658
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -69,10 +85,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0.02487
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -86,10 +106,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0.02487
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -103,10 +127,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0.04146
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -120,10 +148,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0.12436
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -137,10 +169,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 0.59695
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000
@@ -154,10 +190,14 @@ test_cases:
     7E82800000000000000
     7E829800080FF7FFF7F
 - expected_values:
+    KIA_TB_PRES: 1.98984
     KIA_TURBO_BOOST: -10
     KIA_WG_DUTY: 0
+    KIA_WG_POS: 0
     KIA_WG_POSITION: 0
     KIA_WG_SETPOINT: 0
+    KIA_WG_SP: 0
+    KIA_WG_V: 0
     KIA_WG_VOLTAGE: 0
   response: |-
     7E8104562E021000000

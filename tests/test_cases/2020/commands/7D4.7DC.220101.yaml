@@ -1,6 +1,12 @@
 command_id: 7D4.7DC.220101
 test_cases:
 - expected_values:
+    KIA_BMS_CHG_PWR: 655.32
+    KIA_BMS_DISCHG_PWR: 0.49
+    KIA_BMS_SOC: 100
+  response: "220101\n7DC 10 12 62 01 01 90 95 00 \n7DC 21 FF F1 FF FC 00 31 01 \n7DC
+    22 E9 10 10 0F 21 AA AA "
+- expected_values:
     KIA_BMS_CHG_PWR: 654.33
     KIA_BMS_DISCHG_PWR: 13.29
     KIA_BMS_SOC: 92.5
@@ -12,14 +18,6 @@ test_cases:
     KIA_BMS_SOC: 87
   response: "220101\n7DC 10 12 62 01 01 90 95 F2 \n7DC 21 FF AE FF F8 02 27 01 \n7DC
     22 84 10 10 0E 21 AA AA "
-- expected_values:
-    KIA_BMS_CHG_PWR: 655.3
-    KIA_BMS_DISCHG_PWR: 645.12
-    KIA_BMS_SOC: 63
-  response: |-
-    7DC10126201018D9208
-    7DC21027EFFFAFC0000
-    7DC220010101921AAAA
 - expected_values:
     KIA_BMS_CHG_PWR: 655.1
     KIA_BMS_DISCHG_PWR: 650.5
@@ -52,6 +50,14 @@ test_cases:
     7DC10126201018D92F2
     7DC21FE430016040C00
     7DC227710101621AAAA
+- expected_values:
+    KIA_BMS_CHG_PWR: 655.31
+    KIA_BMS_DISCHG_PWR: 5.29
+    KIA_BMS_SOC: 65
+  response: |-
+    7DC10126201018D92F4
+    7DC21FE82FFFB021100
+    7DC22AA10101821AAAA
 - expected_values:
     KIA_BMS_CHG_PWR: 0.39
     KIA_BMS_DISCHG_PWR: 0.68

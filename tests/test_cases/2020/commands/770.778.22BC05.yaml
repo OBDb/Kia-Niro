@@ -21,4 +21,10 @@ test_cases:
     KIA_HL_SW: 1
   response: |-
     778100B62BC05BF1320
+    7782100A1400400AAAA
+- expected_values:
+    KIA_HAZARD_SW: 161
+    KIA_HL_SW: 1
+  response: |-
+    778100B62BC05BF1320
     7782100A1C00400AAAA

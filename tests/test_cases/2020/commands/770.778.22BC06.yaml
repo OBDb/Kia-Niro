@@ -5,3 +5,13 @@ test_cases:
   response: |-
     778100B62BC06B48000
     778210000000000AAAA
+- expected_values:
+    KIA_BRAKE_LIGHT: 45
+  response: |-
+    778100B62BC06B48000
+    77821002D000000AAAA
+- expected_values:
+    KIA_BRAKE_LIGHT: 45
+  response: |-
+    778100B62BC06B48000
+    77821002D010000AAAA

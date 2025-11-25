@@ -11,6 +11,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 0
     KIA_TRUNK: 0
   response: |-
     778100B62BC03FFEE7C
@@ -26,6 +27,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 44
     KIA_TRUNK: 0
   response: |-
     778100B62BC03FFEE7C
@@ -41,6 +43,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 46
     KIA_TRUNK: 0
   response: |-
     778100B62BC03FFEE7C
@@ -56,6 +59,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 60
     KIA_TRUNK: 0
   response: |-
     778100B62BC03FFEE7C
@@ -71,6 +75,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 0
     KIA_TRUNK: 1
   response: |-
     778100B62BC03FFEE7C
@@ -86,6 +91,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 0
     KIA_TRUNK: 0
   response: |-
     778100B62BC03FFEE7C

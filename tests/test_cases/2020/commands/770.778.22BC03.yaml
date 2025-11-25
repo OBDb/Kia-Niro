@@ -11,6 +11,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 46
     KIA_TRUNK: 0
   response: "22BC03\n778 10 0B 62 BC 03 FD EE 7C \n778 21 73 00 66 2E 00 AA AA "
 - expected_values:
@@ -24,6 +25,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 0
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 46
     KIA_TRUNK: 0
   response: |-
     778100B62BC03FDEE7C
@@ -39,6 +41,7 @@ test_cases:
     KIA_DOOR_RR: 0
     KIA_HANDBRAKE: 1
     KIA_HOOD: 0
+    KIA_LOW_BEAMS: 46
     KIA_TRUNK: 0
   response: |-
     778100B62BC03FDEE7C

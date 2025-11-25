@@ -6,6 +6,11 @@ test_cases:
   response: "22BC05\n778 10 0B 62 BC 05 BF 13 20 \n778 21 00 01 C0 04 00 AA AA "
 - expected_values:
     KIA_HAZARD_SW: 1
+  response: |-
+    778100B62BC05BF1320
+    778210001000000AAAA
+- expected_values:
+    KIA_HAZARD_SW: 1
     KIA_HL_SW: 1
   response: |-
     778100B62BC05BF1320

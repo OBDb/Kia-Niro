@@ -15,6 +15,22 @@ test_cases:
     KIA_TRUNK: 0
   response: "22BC03\n778 10 0B 62 BC 03 FD EE 7C \n778 21 73 00 66 2E 00 AA AA "
 - expected_values:
+    KIA_BELT_DRIV: 0
+    KIA_BELT_DRIVER: 1
+    KIA_BELT_PASS: 0
+    KIA_BELT_PASSENGER: 0
+    KIA_DOOR_FL: 0
+    KIA_DOOR_FR: 0
+    KIA_DOOR_RL: 0
+    KIA_DOOR_RR: 0
+    KIA_HANDBRAKE: 0
+    KIA_HOOD: 0
+    KIA_LOW_BEAMS: 46
+    KIA_TRUNK: 0
+  response: |-
+    778100B62BC03FDEE7C
+    778217300602E00AAAA
+- expected_values:
     KIA_BELT_DRIV: 1
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
@@ -62,6 +78,22 @@ test_cases:
   response: |-
     778100B62BC03FDEE7C
     778217300662E00AAAA
+- expected_values:
+    KIA_BELT_DRIV: 0
+    KIA_BELT_DRIVER: 0
+    KIA_BELT_PASS: 0
+    KIA_BELT_PASSENGER: 0
+    KIA_DOOR_FL: 0
+    KIA_DOOR_FR: 1
+    KIA_DOOR_RL: 0
+    KIA_DOOR_RR: 0
+    KIA_HANDBRAKE: 0
+    KIA_HOOD: 0
+    KIA_LOW_BEAMS: 0
+    KIA_TRUNK: 0
+  response: |-
+    778100B62BC03FDEE7C
+    77821730A000000AAAA
 - expected_values:
     KIA_BELT_DRIV: 1
     KIA_BELT_DRIVER: 1

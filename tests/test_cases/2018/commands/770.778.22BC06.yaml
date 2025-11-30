@@ -2,9 +2,6 @@ command_id: 770.778.22BC06
 test_cases:
 - expected_values:
     KIA_BRAKE_LIGHT: 0
-  response: "22BC06\n778 10 0B 62 BC 06 B4 80 00 \n778 21 00 00 00 00 00 AA AA "
-- expected_values:
-    KIA_BRAKE_LIGHT: 0
   response: |-
     778100B62BC06B48000
     778210000000000AAAA
@@ -13,6 +10,11 @@ test_cases:
   response: |-
     778100B62BC06B48000
     778210000010000AAAA
+- expected_values:
+    KIA_BRAKE_LIGHT: 0
+  response: |-
+    778100B62BC06B48000
+    778210000020000AAAA
 - expected_values:
     KIA_BRAKE_LIGHT: 45
   response: |-
@@ -23,3 +25,8 @@ test_cases:
   response: |-
     778100B62BC06B48000
     77821002D010000AAAA
+- expected_values:
+    KIA_BRAKE_LIGHT: 45
+  response: |-
+    778100B62BC06B48000
+    77821002D020000AAAA

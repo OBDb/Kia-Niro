@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Kia_Niro"
+
 generations:
   - name: "First Generation (DE)"
     start_year: 2016

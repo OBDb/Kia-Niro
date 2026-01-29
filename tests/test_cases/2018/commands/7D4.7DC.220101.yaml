@@ -1,6 +1,16 @@
 command_id: 7D4.7DC.220101
 test_cases:
 - expected_values:
+    KIA_BMS_CHG_PWR: 655.23
+    KIA_BMS_DISCHG_PWR: 0
+    KIA_BMS_SOC: 1.5
+    KIA_MDPS_MOTOR_CURRENT: 0
+    KIA_WHEEL_ANGLE_ABS: 0
+  response: |-
+    7DC1012620101790303
+    7DC21FE03FFF3000000
+    7DC2200000022010000
+- expected_values:
     KIA_BMS_CHG_PWR: 655.33
     KIA_BMS_DISCHG_PWR: 0
     KIA_BMS_SOC: 56

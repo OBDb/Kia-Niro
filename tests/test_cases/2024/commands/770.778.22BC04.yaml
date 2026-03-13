@@ -21,4 +21,15 @@ test_cases:
     KIA_REVERSE_GEAR: 1
   response: |-
     778100B62BC04303F70
+    778212008000E00AAAA
+- expected_values:
+    KIA_BELT_RL: 1
+    KIA_BELT_RM: 1
+    KIA_BELT_RR: 1
+    KIA_GEAR_R: 0
+    KIA_LOCK_FL: 0
+    KIA_LOCK_FR: 0
+    KIA_REVERSE_GEAR: 1
+  response: |-
+    778100B62BC04303F70
     77821200C000E00AAAA

@@ -23,12 +23,6 @@ test_cases:
     KIA_TURN_R: 0
   response: |-
     778100B62BC08A05090
-    77821B80008011CAAAA
-- expected_values:
-    KIA_TURN_L: 0
-    KIA_TURN_R: 0
-  response: |-
-    778100B62BC08A05090
     77821B80800011CAAAA
 - expected_values:
     KIA_TURN_L: 0
@@ -36,3 +30,9 @@ test_cases:
   response: |-
     778100B62BC08A05790
     77821BC00000018AAAA
+- expected_values:
+    KIA_TURN_L: 0
+    KIA_TURN_R: 0
+  response: |-
+    778100B62BC08A05790
+    77821BC000A011CAAAA

@@ -6,6 +6,11 @@ test_cases:
   response: "220102\n7BB 10 14 62 01 02 FF F8 00 \n7BB 21 00 AF 61 01 01 00 01 \n7BB
     22 01 00 38 00 01 67 0F "
 - expected_values:
+    KIA_HVAC_COOLANT_T: 61.5
+    KIA_HVAC_INVERTER_T: 0.5
+  response: "220102\n7BB 10 14 62 01 02 FF F8 00 \n7BB 21 00 CB 63 01 01 00 01 \n7BB
+    22 01 01 51 00 01 68 10 "
+- expected_values:
     KIA_HVAC_COOLANT_T: 2.5
     KIA_HVAC_INVERTER_T: -34
   response: |-

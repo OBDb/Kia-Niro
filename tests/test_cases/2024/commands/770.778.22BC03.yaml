@@ -67,7 +67,7 @@ test_cases:
 - expected_values:
     KIA_BELT_DRIV: 1
     KIA_BELT_DRIVER: 1
-    KIA_BELT_PASS: 1
+    KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 1
@@ -79,7 +79,7 @@ test_cases:
     KIA_TRUNK: 1
   response: |-
     778100B62BC03FDEE20
-    77821630F660000AAAA
+    77821630F620000AAAA
 - expected_values:
     KIA_BELT_DRIV: 0
     KIA_BELT_DRIVER: 0

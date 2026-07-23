@@ -14,4 +14,9 @@ test_cases:
     KIA_DEFOG_LIGHT: 1
   response: |-
     778100B62BC070869DB
+    77821C000140100AAAA
+- expected_values:
+    KIA_DEFOG_LIGHT: 1
+  response: |-
+    778100B62BC070869DB
     77821C000140900AAAA

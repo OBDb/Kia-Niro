@@ -16,6 +16,24 @@ test_cases:
     7E9044131FFFF
     7EE044131FFFF
 - expected_values:
+    CLR_DIST: 65535
+  response: |-
+    7E8044131239C
+    7E9044131FFFF
+    7EB044131FFFF
+    7EA044131FFFF
+    7EC044131FFFF
+    7EE044131FFFF
+- expected_values:
+    CLR_DIST: 65535
+  response: |-
+    7E8044131239C
+    7EA044131FFFF
+    7E9044131FFFF
+    7EB044131FFFF
+    7EE044131FFFF
+    7EC044131FFFF
+- expected_values:
     CLR_DIST: 13312
   response: '7E80441313400'
 - expected_values:

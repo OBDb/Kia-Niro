@@ -5,6 +5,8 @@ test_cases:
     KIA_INJ_DUR_2: 0
     KIA_INJ_DUR_3: 0
     KIA_INJ_DUR_4: 0
+    KIA_INJ_DUR_5: 0
+    KIA_INJ_DUR_6: 0
   response: |-
     7E8102A62E002D40C00
     7E8210000002600FF03
@@ -18,6 +20,8 @@ test_cases:
     KIA_INJ_DUR_2: 0
     KIA_INJ_DUR_3: 0
     KIA_INJ_DUR_4: 0
+    KIA_INJ_DUR_5: 0
+    KIA_INJ_DUR_6: 0
   response: |-
     7E8102A62E002D40C00
     7E8210000002600FF03

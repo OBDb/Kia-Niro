@@ -17,9 +17,9 @@ test_cases:
     KIA_TP_FR: 12
     KIA_TP_FR_PRE21: 39
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 33.6
+    KIA_TP_RL_PRE21: 34.2
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 34.2
+    KIA_TP_RR_PRE21: 33.6
     KIA_TT_FL: 10
     KIA_TT_FL_PRE21: 10
     KIA_TT_FR: -49
@@ -49,9 +49,9 @@ test_cases:
     KIA_TP_FR: 14.2
     KIA_TP_FR_PRE21: 42
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 41.4
+    KIA_TP_RL_PRE21: 41
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 41
+    KIA_TP_RR_PRE21: 41.4
     KIA_TT_FL: 22
     KIA_TT_FL_PRE21: 22
     KIA_TT_FR: -49
@@ -81,9 +81,9 @@ test_cases:
     KIA_TP_FR: 14.2
     KIA_TP_FR_PRE21: 42.2
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 41.4
+    KIA_TP_RL_PRE21: 41.2
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 41.2
+    KIA_TP_RR_PRE21: 41.4
     KIA_TT_FL: 22
     KIA_TT_FL_PRE21: 22
     KIA_TT_FR: -49
@@ -113,15 +113,15 @@ test_cases:
     KIA_TP_FR: 11.2
     KIA_TP_FR_PRE21: 38
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 32.8
+    KIA_TP_RL_PRE21: 33.4
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 33.4
+    KIA_TP_RR_PRE21: 32.8
     KIA_TT_FL: 7
     KIA_TT_FL_PRE21: 7
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 6
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 7
+    KIA_TT_RL_PRE21: 6
     KIA_TT_RR_PRE21: 6
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -148,15 +148,15 @@ test_cases:
     KIA_TP_FR: 11.8
     KIA_TP_FR_PRE21: 41.2
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 39.8
+    KIA_TP_RL_PRE21: 40.2
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 40.2
+    KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: -2
     KIA_TT_FL_PRE21: -2
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 9
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 7
+    KIA_TT_RL_PRE21: 6
     KIA_TT_RR_PRE21: 6
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -183,9 +183,9 @@ test_cases:
     KIA_TP_FR: 9.4
     KIA_TP_FR_PRE21: 38.8
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 37.4
+    KIA_TP_RL_PRE21: 38.4
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 38.4
+    KIA_TP_RR_PRE21: 37.4
     KIA_TT_FL: -2
     KIA_TT_FL_PRE21: -2
     KIA_TT_FR: -49
@@ -218,9 +218,9 @@ test_cases:
     KIA_TP_FR: 9.6
     KIA_TP_FR_PRE21: 39.2
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 37.8
+    KIA_TP_RL_PRE21: 38.8
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 38.8
+    KIA_TP_RR_PRE21: 37.8
     KIA_TT_FL: -2
     KIA_TT_FL_PRE21: -2
     KIA_TT_FR: -49
@@ -253,9 +253,9 @@ test_cases:
     KIA_TP_FR: 12.4
     KIA_TP_FR_PRE21: 38.8
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 33.6
+    KIA_TP_RL_PRE21: 34.4
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 34.4
+    KIA_TP_RR_PRE21: 33.6
     KIA_TT_FL: 13
     KIA_TT_FL_PRE21: 13
     KIA_TT_FR: -49
@@ -288,9 +288,9 @@ test_cases:
     KIA_TP_FR: 9.8
     KIA_TP_FR_PRE21: 39.2
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 38.4
+    KIA_TP_RL_PRE21: 38.8
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 38.8
+    KIA_TP_RR_PRE21: 38.4
     KIA_TT_FL: -1
     KIA_TT_FL_PRE21: -1
     KIA_TT_FR: -49
@@ -331,7 +331,7 @@ test_cases:
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 11
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 9
+    KIA_TT_RL_PRE21: 7
     KIA_TT_RR_PRE21: 7
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -358,9 +358,9 @@ test_cases:
     KIA_TP_FR: 12.4
     KIA_TP_FR_PRE21: 38.8
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 34.6
+    KIA_TP_RL_PRE21: 35.4
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 35.4
+    KIA_TP_RR_PRE21: 34.6
     KIA_TT_FL: 19
     KIA_TT_FL_PRE21: 19
     KIA_TT_FR: -49
@@ -393,15 +393,15 @@ test_cases:
     KIA_TP_FR: 15.8
     KIA_TP_FR_PRE21: 40.8
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 39.8
+    KIA_TP_RL_PRE21: 39.6
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 39.6
+    KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 30
     KIA_TT_FL_PRE21: 30
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 29
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 27
+    KIA_TT_RL_PRE21: 28
     KIA_TT_RR_PRE21: 28
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -428,15 +428,15 @@ test_cases:
     KIA_TP_FR: 16
     KIA_TP_FR_PRE21: 41
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 39.8
+    KIA_TP_RL_PRE21: 39.6
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 39.6
+    KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 30
     KIA_TT_FL_PRE21: 30
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 30
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 28
+    KIA_TT_RL_PRE21: 29
     KIA_TT_RR_PRE21: 29
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -463,15 +463,15 @@ test_cases:
     KIA_TP_FR: 13
     KIA_TP_FR_PRE21: 41
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 40.4
+    KIA_TP_RL_PRE21: 40
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 40
+    KIA_TP_RR_PRE21: 40.4
     KIA_TT_FL: 17
     KIA_TT_FL_PRE21: 17
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 15
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 15
+    KIA_TT_RL_PRE21: 14
     KIA_TT_RR_PRE21: 14
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -498,9 +498,9 @@ test_cases:
     KIA_TP_FR: 14
     KIA_TP_FR_PRE21: 41.4
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 40.4
+    KIA_TP_RL_PRE21: 40.2
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 40.2
+    KIA_TP_RR_PRE21: 40.4
     KIA_TT_FL: 20
     KIA_TT_FL_PRE21: 20
     KIA_TT_FR: -49
@@ -533,9 +533,9 @@ test_cases:
     KIA_TP_FR: 14.8
     KIA_TP_FR_PRE21: 41.6
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 41
+    KIA_TP_RL_PRE21: 40.6
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 40.6
+    KIA_TP_RR_PRE21: 41
     KIA_TT_FL: 25
     KIA_TT_FL_PRE21: 25
     KIA_TT_FR: -49
@@ -568,15 +568,15 @@ test_cases:
     KIA_TP_FR: 15
     KIA_TP_FR_PRE21: 41.4
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 41.4
+    KIA_TP_RL_PRE21: 40.4
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 40.4
+    KIA_TP_RR_PRE21: 41.4
     KIA_TT_FL: 28
     KIA_TT_FL_PRE21: 28
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 25
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 28
+    KIA_TT_RL_PRE21: 24
     KIA_TT_RR_PRE21: 24
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -603,15 +603,15 @@ test_cases:
     KIA_TP_FR: 15
     KIA_TP_FR_PRE21: 41.2
     KIA_TP_RL: 0.4
-    KIA_TP_RL_PRE21: 41.4
+    KIA_TP_RL_PRE21: 40.2
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 40.2
+    KIA_TP_RR_PRE21: 41.4
     KIA_TT_FL: 30
     KIA_TT_FL_PRE21: 30
     KIA_TT_FR: -48
     KIA_TT_FR_PRE21: 25
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 28
+    KIA_TT_RL_PRE21: 24
     KIA_TT_RR_PRE21: 24
     KIA_TW_FL: 0
     KIA_TW_FR: 1
@@ -638,9 +638,9 @@ test_cases:
     KIA_TP_FR: 16
     KIA_TP_FR_PRE21: 43
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 42.2
+    KIA_TP_RL_PRE21: 41.6
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 41.6
+    KIA_TP_RR_PRE21: 42.2
     KIA_TT_FL: 30
     KIA_TT_FL_PRE21: 30
     KIA_TT_FR: -49
@@ -673,15 +673,15 @@ test_cases:
     KIA_TP_FR: 12.6
     KIA_TP_FR_PRE21: 40
     KIA_TP_RL: 0.2
-    KIA_TP_RL_PRE21: 39.8
+    KIA_TP_RL_PRE21: 42.6
     KIA_TP_RR: 0
-    KIA_TP_RR_PRE21: 42.6
+    KIA_TP_RR_PRE21: 39.8
     KIA_TT_FL: 31
     KIA_TT_FL_PRE21: 31
     KIA_TT_FR: -49
     KIA_TT_FR_PRE21: 13
     KIA_TT_RL: -50
-    KIA_TT_RL_PRE21: 13
+    KIA_TT_RL_PRE21: 27
     KIA_TT_RR_PRE21: 27
     KIA_TW_FL: 0
     KIA_TW_FR: 1

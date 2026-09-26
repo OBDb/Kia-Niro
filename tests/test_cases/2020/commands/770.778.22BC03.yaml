@@ -5,6 +5,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -19,6 +20,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -33,6 +35,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 1
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -47,6 +50,7 @@ test_cases:
     KIA_BELT_DRIVER: 0
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -63,6 +67,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -79,6 +84,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -95,6 +101,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 1
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -111,6 +118,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 1
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
@@ -127,11 +135,12 @@ test_cases:
     KIA_BELT_DRIVER: 0
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
-    KIA_DOOR_FR: 1
+    KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0
     KIA_DOOR_RR: 0
-    KIA_HANDBRAKE: 0
+    KIA_HANDBRAKE: 1
     KIA_HOOD: 0
     KIA_LOW_BEAMS: 0
     KIA_TRUNK: 0
@@ -143,11 +152,12 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 0
     KIA_DOOR_FL: 0
-    KIA_DOOR_FR: 0
+    KIA_DOOR_FR: 1
     KIA_DOOR_RL: 0
     KIA_DOOR_RR: 0
-    KIA_HANDBRAKE: 1
+    KIA_HANDBRAKE: 0
     KIA_HOOD: 0
     KIA_LOW_BEAMS: 46
     KIA_TRUNK: 0
@@ -159,6 +169,7 @@ test_cases:
     KIA_BELT_DRIVER: 1
     KIA_BELT_PASS: 0
     KIA_BELT_PASSENGER: 0
+    KIA_DEFOG_SW: 1
     KIA_DOOR_FL: 0
     KIA_DOOR_FR: 0
     KIA_DOOR_RL: 0

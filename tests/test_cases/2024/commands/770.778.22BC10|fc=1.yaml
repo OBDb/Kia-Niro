@@ -1,0 +1,27 @@
+command_id: 770.778.22BC10|fc=1
+test_cases:
+- expected_values:
+    KIA_LIGHTS_CODE: 0
+  response: |-
+    778100B62BC100F2600
+    778210000200000AAAA
+- expected_values:
+    KIA_LIGHTS_CODE: 13
+  response: |-
+    778100B62BC100F2600
+    7782100D0200000AAAA
+- expected_values:
+    KIA_LIGHTS_CODE: 14
+  response: |-
+    778100B62BC100F2600
+    7782100E0200000AAAA
+- expected_values:
+    KIA_LIGHTS_CODE: 15
+  response: |-
+    778100B62BC100F2600
+    7782100F0000000AAAA
+- expected_values:
+    KIA_LIGHTS_CODE: 15
+  response: |-
+    778100B62BC100F2600
+    7782100F0200000AAAA

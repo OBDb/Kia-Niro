@@ -2,6 +2,7 @@ command_id: 7E4.7EC.220106|fc=1
 test_cases:
 - expected_values:
     KIA_AC_COMP_RPM: 0
+    KIA_BAT_FAN_DUTY: 0
     KIA_BMS_STATE: 0
     KIA_HVBAT_FAN_DUTY: 0
     KIA_HVBAT_PRA_T: 0
@@ -21,6 +22,7 @@ test_cases:
     7EC2500000000AAAAAA
 - expected_values:
     KIA_AC_COMP_RPM: 0
+    KIA_BAT_FAN_DUTY: 0
     KIA_BMS_STATE: 0
     KIA_HVBAT_FAN_DUTY: 0
     KIA_HVBAT_PRA_T: 0
@@ -34,6 +36,7 @@ test_cases:
     7EC2500000000AAAAAA
 - expected_values:
     KIA_AC_COMP_RPM: 0
+    KIA_BAT_FAN_DUTY: 0
     KIA_BMS_STATE: 0
     KIA_HVBAT_FAN_DUTY: 0
     KIA_HVBAT_PRA_T: 22
@@ -47,6 +50,7 @@ test_cases:
     7EC2500000000AAAAAA
 - expected_values:
     KIA_AC_COMP_RPM: 0
+    KIA_BAT_FAN_DUTY: 0
     KIA_BMS_STATE: 0
     KIA_HVBAT_FAN_DUTY: 0
     KIA_HVBAT_PRA_T: 30
@@ -60,6 +64,7 @@ test_cases:
     7EC2500000000AAAAAA
 - expected_values:
     KIA_AC_COMP_RPM: 0
+    KIA_BAT_FAN_DUTY: 0
     KIA_BMS_STATE: 0
     KIA_HVBAT_FAN_DUTY: 0
     KIA_HVBAT_PRA_T: 32

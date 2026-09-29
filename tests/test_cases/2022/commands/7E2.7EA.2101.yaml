@@ -2,6 +2,7 @@ command_id: 7E2.7EA.2101
 test_cases:
 - expected_values:
     KIA_ACCEL_PEDAL_DEPTH: 0
+    KIA_APP: 0
     KIA_BRAKES_APPLIED: 1
     KIA_BRAKE_LAMP_STATUS: 0
     KIA_GEAR_D: 0
@@ -17,6 +18,7 @@ test_cases:
     7EA2307202005000000
 - expected_values:
     KIA_ACCEL_PEDAL_DEPTH: 0
+    KIA_APP: 0
     KIA_BRAKES_APPLIED: 0
     KIA_BRAKE_LAMP_STATUS: 0
     KIA_GEAR_D: 0
@@ -32,6 +34,7 @@ test_cases:
     7EA2300202005000000
 - expected_values:
     KIA_ACCEL_PEDAL_DEPTH: 28.5
+    KIA_APP: 28.5
     KIA_BRAKES_APPLIED: 1
     KIA_BRAKE_LAMP_STATUS: 0
     KIA_GEAR_D: 1
@@ -47,6 +50,7 @@ test_cases:
     7EA2304080805000000
 - expected_values:
     KIA_ACCEL_PEDAL_DEPTH: 24.5
+    KIA_APP: 24.5
     KIA_BRAKES_APPLIED: 1
     KIA_BRAKE_LAMP_STATUS: 0
     KIA_GEAR_D: 1

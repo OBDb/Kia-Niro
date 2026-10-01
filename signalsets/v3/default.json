@@ -1,4 +1,12 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" },
+    { "hdr": "7E3", "type": "motor" },
+    { "hdr": "7E4", "type": "battery" },
+    { "hdr": "7E5", "type": "charger" },
+    { "hdr": "7E7", "type": "abs" }
+  ],
+  "commands": [
 { "hdr": "744", "rax": "74C", "fcm1": true, "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "NIRO_AUX_BATTERY_VOLTAGE",  "path": "Battery.Charging", "fmt": {"bix": 88,  "len": 16, "max": 655.35,                        "div": 100,             "unit": "volts" }, "name": "Auxiliary battery voltage"},

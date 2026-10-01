@@ -122,7 +122,7 @@
     {"id": "NIRO_TID_3", "path": "Tires", "fmt": {"bix": 96,  "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Tire sensor 3 ID"},
     {"id": "NIRO_TID_4", "path": "Tires", "fmt": {"bix": 128, "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Tire sensor 4 ID"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "C00B"}, "freq": 15, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "years": [2021] },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00B"}, "freq": 15, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "years": [2021] },
   "signals": [
     {"id": "NIRO_TP_FL_PRE21", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Tire pressure front left",     "suggestedMetric": "frontLeftTirePressure"},
     {"id": "NIRO_TT_FL_PRE21", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Tire temperature front left",  "suggestedMetric": "frontLeftTireTemperature"},
@@ -133,7 +133,7 @@
     {"id": "NIRO_TP_RL_PRE21", "path": "Tires", "fmt": {"bix": 128, "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Tire pressure rear left",      "suggestedMetric": "rearLeftTirePressure"},
     {"id": "NIRO_TT_RL_PRE21", "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Tire temperature rear left",   "suggestedMetric": "rearLeftTireTemperature"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "C00B"}, "freq": 15, "filter": { "from": 2023 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00B"}, "freq": 15, "filter": { "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "NIRO_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Tire pressure front left",     "suggestedMetric": "frontLeftTirePressure"},
     {"id": "NIRO_TT_FL", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 100, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Tire temperature front left",  "suggestedMetric": "frontLeftTireTemperature"},
@@ -804,7 +804,7 @@
     {"id": "NIRO_RPM_UNKNOWN",           "path": "Movement", "fmt": {"bix": 440, "len": 16, "max": 65535,                                               "unit": "rpm"           }, "name": "Niro_rpm unknown"},
     {"id": "NIRO_ISOLATION_RES",         "path": "Engine",   "fmt": {"bix": 456, "len": 16, "max": 65535,                                               "unit": "kiloohms"      }, "name": "Niro_isolation resistance"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "NIRO_CELL_V_01", "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 01"},
     {"id": "NIRO_CELL_V_02", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 02"},
@@ -839,7 +839,7 @@
     {"id": "NIRO_CELL_V_31", "path": "Battery", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 31"},
     {"id": "NIRO_CELL_V_32", "path": "Battery", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 32"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "NIRO_CELL_V_33", "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 33"},
     {"id": "NIRO_CELL_V_34", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 34"},
@@ -874,7 +874,7 @@
     {"id": "NIRO_CELL_V_63", "path": "Battery", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 63"},
     {"id": "NIRO_CELL_V_64", "path": "Battery", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 64"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "NIRO_CELL_V_65", "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cell voltage 65"},
     {"id": "NIRO_CELL_V_66", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cell voltage 66"},
@@ -909,7 +909,7 @@
     {"id": "NIRO_CELL_V_95", "path": "Battery", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cell voltage 95"},
     {"id": "NIRO_CELL_V_96", "path": "Battery", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cell voltage 96"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "cmd": {"21": "05"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2021 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "05"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2021 },
   "signals": [
     {"id": "NIRO_BAT_UNKNOWN_06_T",  "path": "Battery", "fmt": {"bix": 72,  "len": 8,  "max": 127,  "min": -128,            "sign": true, "unit": "celsius" }, "name": "Niro_battery unknown 06 temperature"},
     {"id": "NIRO_BAT_UNKNOWN_07_T",  "path": "Battery", "fmt": {"bix": 80,  "len": 8,  "max": 127,  "min": -128,            "sign": true, "unit": "celsius" }, "name": "Niro_battery unknown 07 temperature"},

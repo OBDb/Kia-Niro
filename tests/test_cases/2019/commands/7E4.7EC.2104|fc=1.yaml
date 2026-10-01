@@ -1,4 +1,4 @@
-command_id: 7E4.7EC.2104
+command_id: 7E4.7EC.2104|fc=1
 test_cases:
 - expected_values:
     NIRO_CELL_V_65: 0

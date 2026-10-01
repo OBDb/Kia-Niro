@@ -1,4 +1,4 @@
-command_id: 7A0.7A8.22C00B|f=-2022
+command_id: 7A0.7A8.22C00B|fc=1,f=-2022
 test_cases:
 - expected_values:
     NIRO_TP_FL_PRE21: 38.6

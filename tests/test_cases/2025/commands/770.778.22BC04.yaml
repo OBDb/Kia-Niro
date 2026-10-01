@@ -1,24 +1,22 @@
 command_id: 770.778.22BC04
 test_cases:
 - expected_values:
-    KIA_BELT_RL: 0
-    KIA_BELT_RM: 0
-    KIA_BELT_RR: 0
-    KIA_GEAR_R: 0
-    KIA_LOCK_FL: 0
-    KIA_LOCK_FR: 0
-    KIA_REVERSE_GEAR: 0
+    NIRO_BELT_RL: 0
+    NIRO_BELT_RM: 0
+    NIRO_BELT_RR: 0
+    NIRO_GEAR_R: 0
+    NIRO_LOCK_FL: 0
+    NIRO_LOCK_FR: 0
   response: |-
     778100B62BC04303F70
     778212000000000AAAA
 - expected_values:
-    KIA_BELT_RL: 0
-    KIA_BELT_RM: 0
-    KIA_BELT_RR: 0
-    KIA_GEAR_R: 0
-    KIA_LOCK_FL: 1
-    KIA_LOCK_FR: 1
-    KIA_REVERSE_GEAR: 1
+    NIRO_BELT_RL: 0
+    NIRO_BELT_RM: 0
+    NIRO_BELT_RR: 0
+    NIRO_GEAR_R: 0
+    NIRO_LOCK_FL: 1
+    NIRO_LOCK_FR: 1
   response: |-
     778100B62BC04303F70
     77821200C000000AAAA

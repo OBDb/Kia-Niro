@@ -2,8 +2,6 @@ command_id: 7E0.7E8.22E001
 test_cases:
 - expected_values:
     NIRO_BATTERY_SOC: 43
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 27
     NIRO_EOT: 47.25
   response: |-
@@ -15,8 +13,6 @@ test_cases:
     7E825B001647F53E679
 - expected_values:
     NIRO_BATTERY_SOC: 43
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 24.75
     NIRO_EOT: 51.75
   response: |-
@@ -28,8 +24,6 @@ test_cases:
     7E825CB0161855EFB7E
 - expected_values:
     NIRO_BATTERY_SOC: 44
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 30.75
     NIRO_EOT: 65.25
   response: |-
@@ -41,8 +35,6 @@ test_cases:
     7E82594016997464D73
 - expected_values:
     NIRO_BATTERY_SOC: 51
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 29.25
     NIRO_EOT: 81
   response: |-
@@ -54,8 +46,6 @@ test_cases:
     7E8259F0167AC28F67D
 - expected_values:
     NIRO_BATTERY_SOC: 51
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 28.5
     NIRO_EOT: 60
   response: |-
@@ -67,8 +57,6 @@ test_cases:
     7E825A40166900C687A
 - expected_values:
     NIRO_BATTERY_SOC: 52
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 35.25
     NIRO_EOT: 92.25
   response: |-
@@ -80,8 +68,6 @@ test_cases:
     7E8256A016FBB400862
 - expected_values:
     NIRO_BATTERY_SOC: 52
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 28.5
     NIRO_EOT: 84.75
   response: |-
@@ -93,8 +79,6 @@ test_cases:
     7E825A30166B160EC7A
 - expected_values:
     NIRO_BATTERY_SOC: 52
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 35.25
     NIRO_EOT: 54
   response: |-
@@ -106,8 +90,6 @@ test_cases:
     7E82569016F8853E478
 - expected_values:
     NIRO_BATTERY_SOC: 53
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 40.5
     NIRO_EOT: 92.25
   response: |-
@@ -119,8 +101,6 @@ test_cases:
     7E825410176BB07805F
 - expected_values:
     NIRO_BATTERY_SOC: 53
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 51.75
     NIRO_EOT: 69.75
   response: |-
@@ -132,8 +112,6 @@ test_cases:
     7E825F800859D37E378
 - expected_values:
     NIRO_BATTERY_SOC: 53
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 30.75
     NIRO_EOT: 44.25
   response: |-
@@ -145,8 +123,6 @@ test_cases:
     7E8258F01697B5FFF7F
 - expected_values:
     NIRO_BATTERY_SOC: 54
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 42.75
     NIRO_EOT: 89.25
   response: |-
@@ -158,8 +134,6 @@ test_cases:
     7E825300179B73D8360
 - expected_values:
     NIRO_BATTERY_SOC: 55
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 27.75
     NIRO_EOT: 42
   response: |-
@@ -171,8 +145,6 @@ test_cases:
     7E825A901657860707C
 - expected_values:
     NIRO_BATTERY_SOC: 56
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 49.5
     NIRO_EOT: 87.75
   response: |-
@@ -184,8 +156,6 @@ test_cases:
     7E825030182B528805F
 - expected_values:
     NIRO_BATTERY_SOC: 59
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 16.5
     NIRO_EOT: 27.75
   response: |-
@@ -197,8 +167,6 @@ test_cases:
     7E8251702566513EB7A
 - expected_values:
     NIRO_BATTERY_SOC: 60
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 41.25
     NIRO_EOT: 81.75
   response: |-
@@ -210,8 +178,6 @@ test_cases:
     7E8253B0177AD3F4872
 - expected_values:
     NIRO_BATTERY_SOC: 64
-    NIRO_BATTERY_V: 0
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 43.5
     NIRO_EOT: 75.75
   response: |-
@@ -224,7 +190,6 @@ test_cases:
 - expected_values:
     NIRO_BATTERY_SOC: 54
     NIRO_BATTERY_V: 11.85247
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 36
     NIRO_EOT: 44.25
   response: |-
@@ -237,7 +202,6 @@ test_cases:
 - expected_values:
     NIRO_BATTERY_SOC: 56
     NIRO_BATTERY_V: 12.05682
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 30
     NIRO_EOT: 60
   response: |-
@@ -250,7 +214,6 @@ test_cases:
 - expected_values:
     NIRO_BATTERY_SOC: 65
     NIRO_BATTERY_V: 12.39741
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 45
     NIRO_EOT: 83.25
   response: |-
@@ -276,7 +239,6 @@ test_cases:
 - expected_values:
     NIRO_BATTERY_SOC: 61
     NIRO_BATTERY_V: 12.60176
-    NIRO_BATTERY_V_AFTER_IGNITION: 0
     NIRO_EIT: 27.75
     NIRO_EOT: 75
   response: |-
@@ -613,7 +575,6 @@ test_cases:
     7E8251E017DD1273D6F
 - expected_values:
     NIRO_BATTERY_SOC: 0
-    NIRO_BATTERY_V: 0
     NIRO_BATTERY_V_AFTER_IGNITION: 0.27247
     NIRO_EIT: 52.5
     NIRO_EOT: 89.25

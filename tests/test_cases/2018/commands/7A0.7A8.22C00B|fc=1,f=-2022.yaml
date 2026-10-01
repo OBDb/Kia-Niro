@@ -1,6 +1,20 @@
 command_id: 7A0.7A8.22C00B|fc=1,f=-2022
 test_cases:
 - expected_values:
+    NIRO_TP_FL_PRE21: null
+    NIRO_TP_FR_PRE21: null
+    NIRO_TP_RL_PRE21: null
+    NIRO_TP_RR_PRE21: null
+    NIRO_TT_FL_PRE21: null
+    NIRO_TT_FR_PRE21: null
+    NIRO_TT_RL_PRE21: null
+    NIRO_TT_RR_PRE21: null
+  response: |-
+    7A8101762C00BFFFF00
+    7A82100000000020000
+    7A82200020000000200
+    7A823000002AAAAAAAA
+- expected_values:
     NIRO_TP_FR_PRE21: 32.4
     NIRO_TT_FR_PRE21: 26
   response: |-
@@ -82,20 +96,6 @@ test_cases:
     7A821009B3F01009C3F
     7A8220100943D01009A
     7A8233D0100AAAAAAAA
-- expected_values:
-    NIRO_TP_FL_PRE21: 31.6
-    NIRO_TP_FR_PRE21: 32
-    NIRO_TP_RL_PRE21: 31.8
-    NIRO_TP_RR_PRE21: 30.4
-    NIRO_TT_FL_PRE21: 10
-    NIRO_TT_FR_PRE21: 9
-    NIRO_TT_RL_PRE21: 7
-    NIRO_TT_RR_PRE21: 8
-  response: |-
-    7A8101762C00BFFFF00
-    7A821009E3C0100A03B
-    7A8220100983A01009F
-    7A823390100AAAAAAAA
 - expected_values:
     NIRO_TP_FL_PRE21: 31.8
     NIRO_TP_FR_PRE21: 31.6

@@ -277,7 +277,7 @@
     {"id": "NIRO_COOLANT_FAN_HIGH_SPEED", "path": "Movement", "fmt": {"bix": 171, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Coolant fan high speed"},
     {"id": "NIRO_KNOCK_DETECTED",         "path": "Engine",   "fmt": {"bix": 200, "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock detected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "NIRO_CONTROL_MODULE_VOLTAGE",                "path": "Battery",  "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                   "unit": "volts"   },                   "name": "Control module voltage"},
     {"id": "NIRO_CONTROL_MODULE_VOLTAGE_AFTER_IGNITION", "path": "Battery",  "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                                   "unit": "volts"   },                   "name": "Control module voltage after ignition"},
@@ -291,7 +291,7 @@
     {"id": "NIRO_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
     {"id": "NIRO_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "NIRO_OXYGEN_SENSOR_11",            "path": "Engine",   "fmt": {"bix": 32,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 1 bank 1"},
     {"id": "NIRO_OXYGEN_SENSOR_21",            "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 2 bank 1"},
@@ -302,19 +302,19 @@
     {"id": "NIRO_FUEL_INJECTION_TIMING_3",     "path": "Fuel",     "fmt": {"bix": 208, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #3"},
     {"id": "NIRO_FUEL_INJECTION_TIMING_4",     "path": "Fuel",     "fmt": {"bix": 224, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "NIRO_EXHAUST_GAS_T",                 "path": "Engine", "fmt": {"bix": 368, "len": 8,  "max": 1300,    "min": 99, "mul": 4.709803922,              "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature"},
     {"id": "NIRO_ODO_LAST_DPF_REGEN",            "path": "Trips",  "fmt": {"bix": 392, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer at last DPF regeneration"},
     {"id": "NIRO_DISTANCE_SINCE_LAST_DPF_REGEN", "path": "Trips",  "fmt": {"bix": 424, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Distance since last DPF regeneration"},
     {"id": "NIRO_ODO",                           "path": "Trips",  "fmt": {"bix": 456, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer",                             "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "NIRO_COOLANT_FAN_HIGH_SPEED_1_8", "path": "Movement", "fmt": {"bix": 109, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan high speed, 1.8"},
     {"id": "NIRO_COOLANT_FAN_LOW_SPEED_1_8",  "path": "Movement", "fmt": {"bix": 110, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan low speed, 1.8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "07"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "07"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "NIRO_MAIN_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 96,  "len": 8,  "max": 100,   "mul": 0.392156863, "unit": "liters" }, "name": "Main injection volume"},
     {"id": "NIRO_PILOT_INJECTION_QTY", "path": "Engine", "fmt": {"bix": 104, "len": 16, "max": 65535,                     "unit": "liters" }, "name": "Pilot injection volume"},

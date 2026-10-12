@@ -1,4 +1,4 @@
-command_id: 7E4.7EC.22010A|fc=1
+command_id: 7E4.7EC.22010A|fc=1,f=2022-
 test_cases:
 - expected_values:
     NIRO_HVBAT_CMU097_VOLT_7E4: 0

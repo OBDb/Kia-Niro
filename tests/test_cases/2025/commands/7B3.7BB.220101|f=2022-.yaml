@@ -1,4 +1,4 @@
-command_id: 7B3.7BB.220101
+command_id: 7B3.7BB.220101|f=2022-
 test_cases:
 - expected_values:
     NIRO_HVAC_IAT_PASSENGER_LEGS_VENT: 15.5

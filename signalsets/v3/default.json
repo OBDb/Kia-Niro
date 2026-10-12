@@ -484,10 +484,10 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
-    {"id": "NIRO_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 1"},
-    {"id": "NIRO_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 2"},
-    {"id": "NIRO_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 3"},
-    {"id": "NIRO_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 4"}
+    {"id": "NIRO_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 1"},
+    {"id": "NIRO_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 2"},
+    {"id": "NIRO_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 3"},
+    {"id": "NIRO_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 4"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -579,11 +579,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2020, 2021, 2022, 2023], "from": 2026 },
   "signals": [
-    {"id": "NIRO_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543,  "mul": 0.008291,    "unit": "kilopascal" }, "name": "Turbo boost pressure"},
-    {"id": "NIRO_WG_V",    "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 9.99, "mul": 0.000152588, "unit": "volts"      }, "name": "Waste gate voltage"},
-    {"id": "NIRO_WG_DUTY", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 199,  "mul": 0.00305176,  "unit": "percent"    }, "name": "Waste gate duty"},
-    {"id": "NIRO_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 399,  "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate position"},
-    {"id": "NIRO_WG_SP",   "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 399,  "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate set point"}
+    {"id": "NIRO_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543,                 "mul": 0.008291,                                   "unit": "kilopascal" }, "name": "Turbo boost pressure"},
+    {"id": "NIRO_WG_V",    "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 9.99,                "mul": 0.000152588,                                "unit": "volts"      }, "name": "Waste gate voltage"},
+    {"id": "NIRO_WG_DUTY", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 199,                 "mul": 0.00305176,                                 "unit": "percent"    }, "name": "Waste gate duty"},
+    {"id": "NIRO_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 199.99, "min": -200, "mul": 0.00610352,  "sign": true, "nullmin": -200, "unit": "percent"    }, "name": "Waste gate position"},
+    {"id": "NIRO_WG_SP",   "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 199.99, "min": -200, "mul": 0.00610352,  "sign": true, "nullmin": -200, "unit": "percent"    }, "name": "Waste gate set point"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E023"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2022, 2023], "from": 2025 },
   "signals": [

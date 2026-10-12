@@ -1,4 +1,4 @@
-command_id: 770.778.22BC09
+command_id: 770.778.22BC09|f=2022-
 test_cases:
 - expected_values:
     NIRO_HL_HIGH: 0

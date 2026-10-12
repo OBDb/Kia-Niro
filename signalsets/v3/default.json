@@ -100,12 +100,12 @@
   "signals": [
     {"id": "NIRO_DEFOG_LIGHT", "path": "Lights", "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "offon" }, "name": "Defog light"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "filter": { "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "NIRO_TURN_R", "path": "Lights", "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal on?"},
     {"id": "NIRO_TURN_L", "path": "Lights", "fmt": {"bix": 38, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal on?"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
     {"id": "NIRO_HL_HIGH", "path": "Lights", "fmt": {"bix": 55, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight high beam"},
     {"id": "NIRO_HL_LOW",  "path": "Lights", "fmt": {"bix": 63, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight low beam"}
@@ -212,7 +212,7 @@
   "signals": [
     {"id": "NIRO_VSS", "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7B3", "rax": "7BB", "cmd": {"22": "0101"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7B3", "rax": "7BB", "cmd": {"22": "0101"}, "freq": 5, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "NIRO_HVAC_IAT_PASSENGER_VENT",      "path": "Climate", "fmt": {"bix": 64, "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Interior temperature, passenger vent"},
     {"id": "NIRO_HVAC_IAT_PASSENGER_LEGS_VENT", "path": "Climate", "fmt": {"bix": 72, "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Interior temperature, passenger legs vent"}
@@ -261,7 +261,7 @@
     {"id": "NIRO_RL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "NIRO_RR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
+{ "hdr": "7D4", "rax": "7DC", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2022 },
   "signals": [
     {"id": "NIRO_STEER_ANGLE_V2", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
@@ -756,7 +756,7 @@
     {"id": "NIRO_MOTOR_T_7E3",    "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Motor temperature"},
     {"id": "NIRO_INVERTER_T_7E3", "path": "Engine", "fmt": {"bix": 96, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Inverter temperature"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E001"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "NIRO_IGN_VOLTAGE",             "path": "Engine", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65.535,                 "mul": 10, "div": 10000,               "unit": "volts"        }, "name": "Ignition voltage"},
     {"id": "NIRO_MOTOR_RPM",               "path": "Engine", "fmt": {"bix": 136, "len": 16, "blsb": true, "max": 32767,  "min": -32768,                           "sign": true, "unit": "rpm"          }, "name": "Motor RPM"},
@@ -767,7 +767,7 @@
     {"id": "NIRO_INVERTER_T",              "path": "Engine", "fmt": {"bix": 216, "len": 16, "blsb": true, "max": 327.67, "min": -327.68,            "div": 100,   "sign": true, "unit": "celsius"      }, "name": "Inverter temperature"},
     {"id": "NIRO_HEAT_SINK_T",             "path": "Engine", "fmt": {"bix": 448, "len": 16, "blsb": true, "max": 327.67, "min": -327.68,            "div": 100,   "sign": true, "unit": "celsius"      }, "name": "Heat sink temperature"}
   ]},
-{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E009"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E3", "rax": "7EB", "cmd": {"22": "E009"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
     {"id": "NIRO_EWP_CURRENT_DC",               "path": "Battery", "fmt": {"bix": 56,  "len": 8, "max": 25.5,            "div": 10, "unit": "amps"  }, "name": "Electric water pump, current DC"},
     {"id": "NIRO_EWP_VOLTAGE_DC",               "path": "Battery", "fmt": {"bix": 64,  "len": 8, "max": 25.5,            "div": 10, "unit": "volts" }, "name": "Electric water pump, voltage DC"},
@@ -812,7 +812,7 @@
     {"id": "NIRO_RPM_UNKNOWN",           "path": "Movement", "fmt": {"bix": 440, "len": 16, "max": 65535,                                               "unit": "rpm"           }, "name": "Niro_rpm unknown"},
     {"id": "NIRO_ISOLATION_RES",         "path": "Engine",   "fmt": {"bix": 456, "len": 16, "max": 65535,                                               "unit": "kiloohms"      }, "name": "Niro_isolation resistance"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "NIRO_CELL_V_01", "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 01"},
     {"id": "NIRO_CELL_V_02", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 02"},
@@ -847,7 +847,7 @@
     {"id": "NIRO_CELL_V_31", "path": "Battery", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 31"},
     {"id": "NIRO_CELL_V_32", "path": "Battery", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 32"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "03"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "NIRO_CELL_V_33", "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 33"},
     {"id": "NIRO_CELL_V_34", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 34"},
@@ -882,7 +882,7 @@
     {"id": "NIRO_CELL_V_63", "path": "Battery", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 63"},
     {"id": "NIRO_CELL_V_64", "path": "Battery", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Niro_cell voltage 64"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2020 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2020 },
   "signals": [
     {"id": "NIRO_CELL_V_65", "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cell voltage 65"},
     {"id": "NIRO_CELL_V_66", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Cell voltage 66"},
@@ -1122,7 +1122,7 @@
     {"id": "NIRO_DATC_AC_COMP_1",  "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 5100,              "mul": 20,               "unit": "rpm"     }, "name": "Climate compressor operation RPM, variant 1"},
     {"id": "NIRO_BAT_T_PRA",       "path": "Battery",  "fmt": {"bix": 160, "len": 8, "max": 254,  "min": -256, "mul": 2,  "sign": true, "unit": "celsius" }, "name": "Battery temperature, power relay assembly"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010A"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010A"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "NIRO_HVBAT_CMU097_VOLT_7E4", "path": "Battery.Modules.097", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 097 voltage"},
     {"id": "NIRO_HVBAT_CMU098_VOLT_7E4", "path": "Battery.Modules.098", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 098 voltage"},
@@ -1157,7 +1157,7 @@
     {"id": "NIRO_HVBAT_CMU127_VOLT",     "path": "Battery.Modules.127", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 127 voltage"},
     {"id": "NIRO_HVBAT_CMU128_VOLT",     "path": "Battery.Modules.128", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 128 voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010B"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010B"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "NIRO_HVBAT_CMU129_VOLT", "path": "Battery.Modules.129", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 129 voltage"},
     {"id": "NIRO_HVBAT_CMU130_VOLT", "path": "Battery.Modules.130", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 130 voltage"},
@@ -1192,7 +1192,7 @@
     {"id": "NIRO_HVBAT_CMU159_VOLT", "path": "Battery.Modules.159", "fmt": {"bix": 272, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 159 voltage"},
     {"id": "NIRO_HVBAT_CMU160_VOLT", "path": "Battery.Modules.160", "fmt": {"bix": 280, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 160 voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010C"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010C"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "NIRO_HVBAT_CMU161_VOLT", "path": "Battery.Modules.161", "fmt": {"bix": 32,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 161 voltage"},
     {"id": "NIRO_HVBAT_CMU162_VOLT", "path": "Battery.Modules.162", "fmt": {"bix": 40,  "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 162 voltage"},
@@ -1233,7 +1233,7 @@
     {"id": "NIRO_NUM_QUICK_CHG",      "path": "Engine", "fmt": {"bix": 64, "len": 32, "max": 4294967295, "unit": "scalar"        }, "name": "Number of quick charging"},
     {"id": "NIRO_ACCUMULATED_NORMAL", "path": "Engine", "fmt": {"bix": 96, "len": 32, "max": 4294967295, "unit": "kilowattHours" }, "name": "Accumulated normal charging energy"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "0114"}, "freq": 1,
+{ "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "0114"}, "freq": 1, "filter": { "from": 2022 },
   "signals": [
     {"id": "NIRO_AC_COMPRESSOR_OPERATION_RPM", "path": "Climate", "fmt": {"bix": 208, "len": 16, "max": 1310700, "mul": 20, "unit": "rpm" }, "name": "A/C compressor operation RPM"}
   ]},

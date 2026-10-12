@@ -749,7 +749,7 @@
   ]},
 { "hdr": "7E3", "rax": "7EB", "cmd": {"21": "02"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
-    {"id": "NIRO_VMCU_MOTOR_ACT_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed, vehicle control unit"}
+    {"id": "NIRO_VMCU_MOTOR_ACT_SPD", "path": "Movement", "fmt": {"bix": 32, "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Drive motor speed, vehicle control unit"}
   ]},
 { "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "0102"}, "freq": 5,
   "signals": [
@@ -986,7 +986,7 @@
     {"id": "NIRO_C_V_MIN_ID",       "path": "Battery", "fmt": {"bix": 208, "len": 8,  "max": 255,                                                                                               "unit": "scalar"        }, "name": "Minimum cell voltage id",          "description": "The id of the cell with the lowest voltage."},
     {"id": "NIRO_HVBAT_FAN_STATUS", "path": "Battery", "fmt": {"bix": 216, "len": 8,  "max": 255,                                                                                               "unit": "scalar"        }, "name": "HV battery fan status"},
     {"id": "NIRO_HVBAT_FAN",        "path": "Battery", "fmt": {"bix": 224, "len": 8,  "max": 255,                                                                                               "unit": "hertz"         }, "name": "HV battery fan"},
-    {"id": "NIRO_VPWR_V2",          "path": "Battery", "fmt": {"bix": 232, "len": 8,  "max": 25.5,                       "div": 10,                                                             "unit": "volts"         }, "name": "Battery auxiliary voltage",        "suggestedMetric": "starterBatteryVoltage"},
+    {"id": "NIRO_VPWR_V2",          "path": "Battery", "fmt": {"bix": 232, "len": 8,  "max": 25.5,                       "div": 10,                           "nullmin": 0,                     "unit": "volts"         }, "name": "Battery auxiliary voltage",        "suggestedMetric": "starterBatteryVoltage"},
     {"id": "NIRO_HVBAT_CHRG_TOT_C", "path": "Battery", "fmt": {"bix": 240, "len": 32, "max": 429496729,                  "div": 10,                                                             "unit": "ampereHours"   }, "name": "Total charge current"},
     {"id": "NIRO_HVBAT_DSCH_TOT_C", "path": "Battery", "fmt": {"bix": 272, "len": 32, "max": 429496729,                  "div": 10,                                                             "unit": "ampereHours"   }, "name": "Total discharge current"},
     {"id": "NIRO_HVBAT_CHRG_TOT_E", "path": "Battery", "fmt": {"bix": 304, "len": 32, "max": 429496729,                  "div": 10,                                                             "unit": "kilowattHours" }, "name": "Total charge energy"},
@@ -1319,7 +1319,7 @@
   ]},
 { "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"21": "80"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
-    {"id": "NIRO_AAT_VMCU", "path": "Climate", "fmt": {"bix": 96, "len": 8, "max": 23.5, "min": -104, "div": 2, "add": -40, "sign": true, "unit": "celsius" }, "name": "Ambient temperature, vehicle control unit"}
+    {"id": "NIRO_AAT_VMCU", "path": "Climate", "fmt": {"bix": 96, "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, vehicle control unit"}
   ]},
 { "hdr": "7E7", "rax": "7EF", "cmd": {"22": "C101"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [

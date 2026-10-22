@@ -24,8 +24,8 @@ test_cases:
     NIRO_LOCK_FL: 0
     NIRO_LOCK_FR: 0
   response: |-
-    778100B62BC04B33F74
-    77821EA00000042AAAA
+    778100B62BC04B03F74
+    77821EA00000043AAAA
 - expected_values:
     NIRO_BELT_RL: 0
     NIRO_BELT_RM: 0
@@ -34,28 +34,8 @@ test_cases:
     NIRO_LOCK_FL: 0
     NIRO_LOCK_FR: 0
   response: |-
-    778100B62BC04B33F74
-    77821EA01000042AAAA
-- expected_values:
-    NIRO_BELT_RL: 0
-    NIRO_BELT_RM: 0
-    NIRO_BELT_RR: 0
-    NIRO_GEAR_R: 0
-    NIRO_LOCK_FL: 0
-    NIRO_LOCK_FR: 0
-  response: |-
-    778100B62BC04B33F74
-    77821EA01000052AAAA
-- expected_values:
-    NIRO_BELT_RL: 0
-    NIRO_BELT_RM: 0
-    NIRO_BELT_RR: 0
-    NIRO_GEAR_R: 0
-    NIRO_LOCK_FL: 0
-    NIRO_LOCK_FR: 0
-  response: |-
-    778100B62BC04B33F74
-    77821EA01002042AAAA
+    778100B62BC04B03F74
+    77821EA01002043AAAA
 - expected_values:
     NIRO_BELT_RL: 0
     NIRO_BELT_RM: 0
@@ -64,5 +44,35 @@ test_cases:
     NIRO_LOCK_FL: 1
     NIRO_LOCK_FR: 1
   response: |-
+    778100B62BC04B03F74
+    77821EA0C000003AAAA
+- expected_values:
+    NIRO_BELT_RL: 0
+    NIRO_BELT_RM: 0
+    NIRO_BELT_RR: 0
+    NIRO_GEAR_R: 0
+    NIRO_LOCK_FL: 1
+    NIRO_LOCK_FR: 1
+  response: |-
+    778100B62BC04B03F74
+    77821EA0D000043AAAA
+- expected_values:
+    NIRO_BELT_RL: 0
+    NIRO_BELT_RM: 0
+    NIRO_BELT_RR: 0
+    NIRO_GEAR_R: 0
+    NIRO_LOCK_FL: 1
+    NIRO_LOCK_FR: 1
+  response: |-
+    778100B62BC04B03F74
+    77821EA0D000053AAAA
+- expected_values:
+    NIRO_BELT_RL: 0
+    NIRO_BELT_RM: 0
+    NIRO_BELT_RR: 0
+    NIRO_GEAR_R: 0
+    NIRO_LOCK_FL: 0
+    NIRO_LOCK_FR: 0
+  response: |-
     778100B62BC04B33F74
-    77821EA0C000002AAAA
+    77821EA00000042AAAA

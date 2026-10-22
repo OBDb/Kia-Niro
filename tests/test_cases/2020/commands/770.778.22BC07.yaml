@@ -6,6 +6,16 @@ test_cases:
 - expected_values:
     NIRO_DEFOG_LIGHT: 0
   response: |-
+    778100B62BC07084000
+    778210000000000AAAA
+- expected_values:
+    NIRO_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07084800
+    778210000100000AAAA
+- expected_values:
+    NIRO_DEFOG_LIGHT: 0
+  response: |-
     778100B62BC070849DB
     77821C000101100AAAA
 - expected_values:

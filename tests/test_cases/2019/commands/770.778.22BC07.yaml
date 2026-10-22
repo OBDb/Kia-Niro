@@ -25,3 +25,13 @@ test_cases:
   response: |-
     778100B62BC070869DB
     77821C000140900AAAA
+- expected_values:
+    NIRO_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC070869DB
+    77821C000141900AAAA
+- expected_values:
+    NIRO_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC070869DB
+    77821C000941800AAAA

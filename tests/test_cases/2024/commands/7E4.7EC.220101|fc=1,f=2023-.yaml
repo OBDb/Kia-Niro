@@ -301,7 +301,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 232.6
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -804,7 +803,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 234.6
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -886,7 +884,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 234.6
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -961,7 +958,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 235.1
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -1141,7 +1137,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 236.2
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -2138,7 +2133,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 240.4
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -2175,7 +2169,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 240.9
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -2352,7 +2345,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 241.3
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -2584,7 +2576,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 0
     NIRO_HVBAT_VDC: 243.5
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: 0
   response: |-
@@ -3162,7 +3153,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 25
     NIRO_HVBAT_VDC: 215.6
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 26883
     NIRO_RPM_7E4: -7663
     NIRO_VPWR_V2: 13.5
@@ -3782,7 +3772,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 36
     NIRO_HVBAT_VDC: 232.2
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -6144
     NIRO_VPWR_V2: 13.4
@@ -4029,7 +4018,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 26
     NIRO_HVBAT_VDC: 234.3
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 34051
     NIRO_RPM_7E4: -5632
     NIRO_VPWR_V2: 13.8
@@ -4196,7 +4184,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 35
     NIRO_HVBAT_VDC: 240.7
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -3837
     NIRO_VPWR_V2: 13.1
@@ -4694,7 +4681,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 29
     NIRO_HVBAT_VDC: 236.3
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -5120
     NIRO_VPWR_V2: 13.2
@@ -4861,7 +4847,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 31
     NIRO_HVBAT_VDC: 238.8
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -4347
     NIRO_VPWR_V2: 13.2
@@ -4900,7 +4885,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 16
     NIRO_HVBAT_VDC: 237.3
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 36355
     NIRO_RPM_7E4: -3833
     NIRO_VPWR_V2: 13.7
@@ -5205,7 +5189,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 31
     NIRO_HVBAT_VDC: 242.2
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 2563
     NIRO_RPM_7E4: -3578
     NIRO_VPWR_V2: 13.7
@@ -5381,7 +5364,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 16
     NIRO_HVBAT_VDC: 236.2
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -5115
     NIRO_VPWR_V2: 13.2
@@ -5420,7 +5402,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 32
     NIRO_HVBAT_VDC: 243.8
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -3320
     NIRO_VPWR_V2: 13.6
@@ -5547,7 +5528,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 31
     NIRO_HVBAT_VDC: 243.6
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -3328
     NIRO_VPWR_V2: 12.8
@@ -5674,7 +5654,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 16
     NIRO_HVBAT_VDC: 244.8
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -2809
     NIRO_VPWR_V2: 13.7
@@ -5713,7 +5692,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 17
     NIRO_HVBAT_VDC: 242.1
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -3832
     NIRO_VPWR_V2: 13.7
@@ -5752,7 +5730,6 @@ test_cases:
     NIRO_HVBAT_T_MIN: 34
     NIRO_HVBAT_VDC: 249.8
     NIRO_IGN: 1
-    NIRO_INVRT_CV: 60456
     NIRO_ISO_R: 3
     NIRO_RPM_7E4: -1529
     NIRO_VPWR_V2: 13.2

@@ -1256,7 +1256,7 @@
     {"id": "NIRO_MALFUNCTION_INDICATOR",   "path": "Engine",   "fmt": {"bix": 175, "len": 1,  "max": 1,                                                        "unit": "offon"             }, "name": "Malfunction indicator"},
     {"id": "NIRO_PRESSURE_SENSOR",         "path": "Engine",   "fmt": {"bix": 176, "len": 8,  "max": 63.75,                            "div": 4,               "unit": "bars"              }, "name": "Pressure sensor"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"21": "01"}, "freq": 1,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "NIRO_CHARGER_AC_INPUT_V",         "path": "Battery", "fmt": {"bix": 72,  "len": 8, "max": 652,              "mul": 64, "div": 25,              "unit": "volts"   }, "name": "Charger AC input voltage, root mean square"},
     {"id": "NIRO_CHARGER_T",                  "path": "Battery", "fmt": {"bix": 104, "len": 8, "max": 155, "min": -100,                       "add": -100, "unit": "celsius" }, "name": "Charger temperature a"},

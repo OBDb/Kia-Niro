@@ -36,3 +36,8 @@ test_cases:
   response: |-
     778100B62BC06B48000
     77821002D010000AAAA
+- expected_values:
+    NIRO_BRAKE_LIGHT: 45
+  response: |-
+    778100B62BC06B48000
+    77821002D020000AAAA

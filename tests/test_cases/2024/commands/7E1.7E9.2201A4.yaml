@@ -3,7 +3,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: -40
     NIRO_CLUTCH_2_T: -40
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -18,7 +17,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 12
     NIRO_CLUTCH_2_T: 12
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -33,7 +31,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 56
     NIRO_CLUTCH_2_T: 54
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -48,7 +45,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 26
     NIRO_CLUTCH_2_T: 30
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -63,7 +60,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 28
     NIRO_CLUTCH_2_T: 36
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -78,7 +75,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 32
     NIRO_CLUTCH_2_T: 42
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -93,7 +89,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: -16
     NIRO_CLUTCH_2_T: -16
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -108,7 +103,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 34
     NIRO_CLUTCH_2_T: 36
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -123,7 +118,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 104
     NIRO_CLUTCH_2_T: 102
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -147,7 +141,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 182
     NIRO_CLUTCH_2_T: 176
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -162,7 +155,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 64
     NIRO_CLUTCH_2_T: 62
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -177,7 +170,6 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 112
     NIRO_CLUTCH_2_T: 100
-    NIRO_GEAR_CUR: 0
     NIRO_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFE0
@@ -191,7 +183,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 48
     NIRO_CLUTCH_2_T: 56
-    NIRO_GEAR_CUR: 2
+    NIRO_GEAR_CUR: '2'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -206,7 +198,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 8
     NIRO_CLUTCH_2_T: 12
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -221,7 +213,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 178
     NIRO_CLUTCH_2_T: 178
-    NIRO_GEAR_CUR: 2
+    NIRO_GEAR_CUR: '2'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -236,7 +228,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 8
     NIRO_CLUTCH_2_T: 20
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -251,7 +243,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 30
     NIRO_CLUTCH_2_T: 38
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -266,7 +258,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 14
     NIRO_CLUTCH_2_T: 14
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -281,7 +273,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 106
     NIRO_CLUTCH_2_T: 108
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -296,7 +288,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 62
     NIRO_CLUTCH_2_T: 68
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -311,7 +303,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 44
     NIRO_CLUTCH_2_T: 54
-    NIRO_GEAR_CUR: 2
+    NIRO_GEAR_CUR: '2'
     NIRO_GEAR_NXT: 2
   response: |-
     7E910396201A4FFFFE0
@@ -326,7 +318,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 8
     NIRO_CLUTCH_2_T: 8
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -341,7 +333,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 122
     NIRO_CLUTCH_2_T: 142
-    NIRO_GEAR_CUR: 2
+    NIRO_GEAR_CUR: '2'
     NIRO_GEAR_NXT: 2
   response: |-
     7E910396201A4FFFFE0
@@ -365,7 +357,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 46
     NIRO_CLUTCH_2_T: 46
-    NIRO_GEAR_CUR: 1
+    NIRO_GEAR_CUR: '1'
     NIRO_GEAR_NXT: 1
   response: |-
     7E910396201A4FFFFE0
@@ -380,7 +372,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 82
     NIRO_CLUTCH_2_T: 82
-    NIRO_GEAR_CUR: 6
+    NIRO_GEAR_CUR: '6'
     NIRO_GEAR_NXT: 5
   response: |-
     7E910396201A4FFFFE0
@@ -395,7 +387,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 60
     NIRO_CLUTCH_2_T: 56
-    NIRO_GEAR_CUR: 3
+    NIRO_GEAR_CUR: '3'
     NIRO_GEAR_NXT: 3
   response: |-
     7E910396201A4FFFFE0
@@ -419,7 +411,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 80
     NIRO_CLUTCH_2_T: 80
-    NIRO_GEAR_CUR: 6
+    NIRO_GEAR_CUR: '6'
     NIRO_GEAR_NXT: 6
   response: |-
     7E910396201A4FFFFE0
@@ -434,7 +426,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 58
     NIRO_CLUTCH_2_T: 60
-    NIRO_GEAR_CUR: 2
+    NIRO_GEAR_CUR: '2'
     NIRO_GEAR_NXT: 2
   response: |-
     7E910396201A4FFFFE0
@@ -449,7 +441,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 110
     NIRO_CLUTCH_2_T: 114
-    NIRO_GEAR_CUR: 4
+    NIRO_GEAR_CUR: '4'
     NIRO_GEAR_NXT: 4
   response: |-
     7E910396201A4FFFFE0
@@ -463,7 +455,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: -12
     NIRO_CLUTCH_2_T: -8
-    NIRO_GEAR_CUR: 2
+    NIRO_GEAR_CUR: '2'
     NIRO_GEAR_NXT: 2
   response: |-
     7E910396201A4FFFFE0
@@ -478,7 +470,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 52
     NIRO_CLUTCH_2_T: 58
-    NIRO_GEAR_CUR: 6
+    NIRO_GEAR_CUR: '6'
     NIRO_GEAR_NXT: 6
   response: |-
     7E910396201A4FFFFE0
@@ -493,7 +485,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 98
     NIRO_CLUTCH_2_T: 96
-    NIRO_GEAR_CUR: 6
+    NIRO_GEAR_CUR: '6'
     NIRO_GEAR_NXT: 6
   response: |-
     7E910396201A4FFFFE0
@@ -508,7 +500,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 128
     NIRO_CLUTCH_2_T: 128
-    NIRO_GEAR_CUR: 5
+    NIRO_GEAR_CUR: '5'
     NIRO_GEAR_NXT: 5
   response: |-
     7E910396201A4FFFFE0
@@ -523,7 +515,7 @@ test_cases:
 - expected_values:
     NIRO_CLUTCH_1_T: 132
     NIRO_CLUTCH_2_T: 120
-    NIRO_GEAR_CUR: 2
+    NIRO_GEAR_CUR: '2'
     NIRO_GEAR_NXT: 3
   response: |-
     7E910396201A4FFFFE0

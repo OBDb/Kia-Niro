@@ -284,11 +284,11 @@
     {"id": "NIRO_ENGINE_RPM",                            "path": "Movement", "fmt": {"bix": 56,  "len": 16, "blsb": true,  "max": 16383.75,                                   "div": 4,                     "unit": "rpm"        },                                               "name": "Engine RPM"},
     {"id": "NIRO_COMMANDED_ENGINE_IDLE_RPM",             "path": "Movement", "fmt": {"bix": 72,  "len": 8,  "max": 2550,                    "mul": 10,                                    "unit": "rpm"     },                   "name": "Commanded engine idle RPM"},
     {"id": "NIRO_MAP_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,  "max": 319,                   "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Manifold absolute pressure sensor voltage"},
-    {"id": "NIRO_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "Engine",   "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255,                                        "div": 256,                   "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure"},
+    {"id": "NIRO_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "Engine",   "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255,                                        "div": 256,                   "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure",         "suggestedMetric": "absoluteBoostPressure"},
     {"id": "NIRO_COOLANT_T_SENSOR_VOLTAGE",              "path": "Battery",  "fmt": {"bix": 184, "len": 16, "blsb": true,  "max": 319,                   "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Coolant temperature sensor voltage"},
     {"id": "NIRO_ENGINE_COOLANT_T",                      "path": "Engine",   "fmt": {"bix": 200, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine coolant temperature"},
     {"id": "NIRO_IAT_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 248, "len": 16, "blsb": true,  "max": 319,                   "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "IAT sensor voltage"},
-    {"id": "NIRO_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
+    {"id": "NIRO_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature",                "suggestedMetric": "intakeAirTemperature"},
     {"id": "NIRO_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2019 },
@@ -382,7 +382,7 @@
     {"id": "NIRO_TIMING_ADVANCE_2",    "path": "Engine", "fmt": {"bix": 40,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #2"},
     {"id": "NIRO_TIMING_ADVANCE_3",    "path": "Engine", "fmt": {"bix": 48,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #3"},
     {"id": "NIRO_TIMING_ADVANCE_4",    "path": "Engine", "fmt": {"bix": 56,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #4"},
-    {"id": "NIRO_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,                          "div": 2,               "unit": "kilopascal" }, "name": "Barometric pressure"}
+    {"id": "NIRO_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,                          "div": 2,               "unit": "kilopascal" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "14"}, "freq": 0.25,
   "signals": [
@@ -479,7 +479,7 @@
     {"id": "NIRO_BATTERY_V",                "path": "Battery", "fmt": {"bix": 32,  "len": 8, "max": 17.37,             "mul": 17.37, "div": 255,             "nullmin": 0,                 "unit": "volts"   }, "name": "Battery voltage"},
     {"id": "NIRO_BATTERY_V_AFTER_IGNITION", "path": "Battery", "fmt": {"bix": 40,  "len": 8, "max": 17.37,             "mul": 17.37, "div": 255,             "nullmin": 0,                 "unit": "volts"   }, "name": "Battery voltage after ignition"},
     {"id": "NIRO_BATTERY_SOC",              "path": "Battery", "fmt": {"bix": 48,  "len": 8, "max": 255,                                                                   "nullmax": 255, "unit": "percent" }, "name": "12V battery state of charge"},
-    {"id": "NIRO_EIT",                      "path": "Engine",  "fmt": {"bix": 264, "len": 8, "max": 143,   "min": -48, "mul": 3,     "div": 4,   "add": -48,                               "unit": "celsius" }, "name": "Intake air temperature"},
+    {"id": "NIRO_EIT",                      "path": "Engine",  "fmt": {"bix": 264, "len": 8, "max": 143,   "min": -48, "mul": 3,     "div": 4,   "add": -48,                               "unit": "celsius" }, "name": "Intake air temperature",         "suggestedMetric": "intakeAirTemperature"},
     {"id": "NIRO_EOT",                      "path": "Engine",  "fmt": {"bix": 272, "len": 8, "max": 143,   "min": -48, "mul": 3,     "div": 4,   "add": -48,                               "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2026 },
@@ -579,7 +579,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2021, 2022, 2023], "from": 2026 },
   "signals": [
-    {"id": "NIRO_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543,  "mul": 0.008291,    "unit": "kilopascal" }, "name": "Turbo boost pressure"},
+    {"id": "NIRO_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543,  "mul": 0.008291,    "unit": "kilopascal" }, "name": "Turbo boost pressure", "suggestedMetric": "absoluteBoostPressure"},
     {"id": "NIRO_WG_V",    "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 9.99, "mul": 0.000152588, "unit": "volts"      }, "name": "Waste gate voltage"},
     {"id": "NIRO_WG_DUTY", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 199,  "mul": 0.00305176,  "unit": "percent"    }, "name": "Waste gate duty"},
     {"id": "NIRO_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 399,  "mul": 0.00610352,  "unit": "percent"    }, "name": "Waste gate position"},
@@ -1274,7 +1274,7 @@
     {"id": "NIRO_REAR_LEFT_WHEEL_SPEED",   "path": "Movement", "fmt": {"bix": 128, "len": 8,  "max": 255,                                                      "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "NIRO_LOCK_SWITCH",             "path": "Engine",   "fmt": {"bix": 151, "len": 1,  "max": 1,                                                        "unit": "offon"             }, "name": "Lock switch"},
     {"id": "NIRO_STEERING_WHEEL_ANGLE",    "path": "Tires",    "fmt": {"bix": 160, "len": 8,  "max": 167,      "min": -88,                         "add": -88, "unit": "degrees"           }, "name": "Steering wheel angle"},
-    {"id": "NIRO_MALFUNCTION_INDICATOR",   "path": "Engine",   "fmt": {"bix": 175, "len": 1,  "max": 1,                                                        "unit": "offon"             }, "name": "Malfunction indicator"},
+    {"id": "NIRO_MALFUNCTION_INDICATOR",   "path": "Engine",   "fmt": {"bix": 175, "len": 1,  "max": 1,                                                        "unit": "offon"             }, "name": "Malfunction indicator",               "suggestedMetric": "checkEngineLightOn"},
     {"id": "NIRO_PRESSURE_SENSOR",         "path": "Engine",   "fmt": {"bix": 176, "len": 8,  "max": 63.75,                            "div": 4,               "unit": "bars"              }, "name": "Pressure sensor"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },

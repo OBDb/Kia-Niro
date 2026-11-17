@@ -5,11 +5,9 @@ test_cases:
   response: "22BC05\n778 10 0B 62 BC 05 BF 13 20 \n778 21 00 01 00 00 00 AA AA "
 - expected_values:
     NIRO_HAZARD_SW: 1
-    NIRO_HL_SW: 1
   response: "22BC05\n778 10 0B 62 BC 05 BF 13 20 \n778 21 00 01 40 04 00 AA AA "
 - expected_values:
     NIRO_HAZARD_SW: 1
-    NIRO_HL_SW: 1
   response: "22BC05\n778 10 0B 62 BC 05 BF 13 20 \n778 21 00 01 C0 04 00 AA AA "
 - expected_values:
     NIRO_HAZARD_SW: 0
@@ -28,13 +26,11 @@ test_cases:
     778210001000000AAAA
 - expected_values:
     NIRO_HAZARD_SW: 1
-    NIRO_HL_SW: 1
   response: |-
     778100B62BC05BF1320
     778210001400400AAAA
 - expected_values:
     NIRO_HAZARD_SW: 1
-    NIRO_HL_SW: 1
   response: |-
     778100B62BC05BF1320
     778210001C00400AAAA
